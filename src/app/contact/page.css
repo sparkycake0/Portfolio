@@ -1,0 +1,7 @@
+input[type="text"]{@apply h-10}
+input{@apply rounded-md bg-button bg-opacity-40 outline-none pl-3 caret-button}
+input:hover,textarea:hover{@apply bg-opacity-30}
+input:focus,textarea:focus{@apply bg-opacity-20}
+textarea{@apply rounded-md bg-button bg-opacity-40 outline-none p-3 resize-none caret-button}
+textarea::placeholder{@apply pl-4 text-button}
+input::placeholder{@apply pl-4 text-button}
