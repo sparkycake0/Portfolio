@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 body {
-  @apply cursor-default bg-primary overflow-x-hidden text-white border-black
+  @apply cursor-default bg-primary overflow-x-hidden text-white border-black;
 }
-body{
+body {
   background-image: url("bgm.jpg");
   background-position: center;
-  background-attachment: fixed;
+  background-size: cover;
 }
 ::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #FF0000;
+  background: #ff0000;
 }
